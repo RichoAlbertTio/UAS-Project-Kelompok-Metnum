@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ACER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-16 04:13:23 PM"/>
+        <attribute name="created" value="QUNFUjtERVNLVE9QLUgzVUpWS0M7MjAyMS0wNi0xNjswMzo1NToyNSBQTTsyNjU4"/>
+        <attribute name="edited" value="QUNFUjtERVNLVE9QLUgzVUpWS0M7MjAyMS0wNi0xNjswNDoxMzoyMyBQTTsxOzI3NTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, x1, x2, x3, y1, y2, y3, hasil" type="Real" array="False" size=""/>
+            <assign variable="x" expression="9"/>
+            <input variable="x1"/>
+            <input variable="y1"/>
+            <input variable="x2"/>
+            <input variable="y2"/>
+            <assign variable="hasil" expression="y1 +(x-x1)/(x2-x1)*(y2-y1)"/>
+            <output expression="hasil" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

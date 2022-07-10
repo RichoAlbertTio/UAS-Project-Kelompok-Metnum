@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ACER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-19 10:20:00 PM"/>
+        <attribute name="created" value="QUNFUjtERVNLVE9QLUgzVUpWS0M7MjAyMS0wNi0xOTsxMDowNDozNSBQTTsyNjU0"/>
+        <attribute name="edited" value="QUNFUjtERVNLVE9QLUgzVUpWS0M7MjAyMS0wNi0xOTsxMDoyMDowMCBQTTsyOzI3NTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, x1, x2, x3, y1, y2, y3, pers1, pers2, pers3" type="Integer" array="False" size=""/>
+            <input variable="x1"/>
+            <input variable="y1"/>
+            <input variable="x2"/>
+            <input variable="y2"/>
+            <input variable="x3"/>
+            <input variable="y3"/>
+            <input variable="x"/>
+            <assign variable="per1" expression="((x-x2)*(x-x3))/((x1-x2)*(x1-x3))"/>
+            <assign variable="pers2" expression="((x-x1)*(x-x3))/((x2-x1)*(x2-x3))"/>
+            <assign variable="pers3" expression="((x-x1)*(x-x2))/((x3-x1)*(x3-x2))"/>
+            <assign variable="hasil" expression="((y1*pers1)+(y2*pers2))+((y3*pers3))"/>
+            <output expression="&quot;Hasil perhitungan :&quot;+hasil" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

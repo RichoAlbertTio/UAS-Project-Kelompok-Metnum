@@ -1,0 +1,29 @@
+tugas besar metode numerik
+Dosen Pengampu : Efran Christian,S.T.,M.T
+
+Kelompok 7 : - Richo Albert tio
+	     - Muhammad Rijal
+	     - Lesti Egi Karlina
+	     - Rabi'ah 
+	     - Januarius Umu Rera
+
+materi yang di bahas : 1. Interpolasi Linier
+		       2. Interpolasi Kuadrat
+		       3. Interpolasi Lagrange
+
+pembahasannya berupa :- pengertian
+		      - Studi kasus
+		      - Rumus
+		      - Implementasi Flowchart
+		      - Implementasi Pseudocode
+		      - Implementasi kode program dalam bahasa pascal
+
+===THANK YOU===
+# KEEP LEARNING
+# KEEP SPIRITS
+# KEEP HEALTY
+
+			
+
+
+

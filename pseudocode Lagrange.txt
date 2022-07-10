@@ -1,0 +1,23 @@
+Program Interpolasi_Lagrange
+  Deklarasi
+    var x, x1, x2, x3, pers1, pers2, pers3, pers4, cara1, cara2, cara3, cara4, hasil
+    const
+    y0 <-- 2.4771;
+    y1 <-- 2.4829;
+    y2 <-- 2.4843;
+    y3 <-- 2.4871;
+  Algoritma
+    input readln(x0);
+	readln(x1);
+    	readln(x2);
+    	readln(x3);
+    Assign pers1 <-- ((x-x1)*(x-x2)*(x-x3))/((x0-x1)*(x0-x2)*(x0-x3));
+	pers2 <-- ((x-x0)*(x-x2)*(x-x3))/((x1-x0)*(x1-x2)*(x1-x3));
+	pers3 <-- ((x-x0)*(x-x1)*(x-x3))/((x2-x0)*(x2-x1)*(x2-x3));
+	pers4 <-- ((x-x0)*(x-x1)*(x-x2))/((x3-x)*(x3-x1)*(x3-x2));
+	cara1 <-- (y0*pers1);
+	cara1 <-- (y1*pers2);
+	cara1 <-- (y2*pers3);
+	cara1 <-- (y3*pers4);
+	hasil <-- cara1+cara2+cara3+cara4;
+    output writeln <-- hasil

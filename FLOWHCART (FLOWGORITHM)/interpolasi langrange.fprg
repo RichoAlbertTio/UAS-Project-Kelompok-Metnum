@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ACER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-07-01 11:34:17 AM"/>
+        <attribute name="created" value="QUNFUjtERVNLVE9QLUgzVUpWS0M7MjAyMS0wNy0wMTsxMDo1OTozNyBBTTsyNjQz"/>
+        <attribute name="edited" value="QUNFUjtERVNLVE9QLUgzVUpWS0M7MjAyMS0wNy0wMTsxMTozNDoxNyBBTTsxOzI3NDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, x0, x1, x2, x3, y0, y1, y2, y3, pers1, pers2, pers3, pers4, cara1, cara2, cara3, cara4, hasil" type="Real" array="False" size=""/>
+            <assign variable="y0" expression="2.4771"/>
+            <assign variable="y1" expression="2.4829"/>
+            <assign variable="y2" expression="2.4843"/>
+            <assign variable="y3" expression="2.4871"/>
+            <input variable="x0"/>
+            <input variable="x1"/>
+            <input variable="x2"/>
+            <input variable="x3"/>
+            <input variable="x"/>
+            <assign variable="pers1" expression="((x-x1)*(x-x2)*(x-x3))/((x0-x1)*(x0-x2)*(x0-x3))"/>
+            <assign variable="pers2" expression="((x-x0)*(x-x2)*(x-x3))/((x1-x0)*(x1-x2)*(x1-x3))"/>
+            <assign variable="pers3" expression="((x-x0)*(x-x1)*(x-x3))/((x2-x0)*(x2-x1)*(x2-x3))"/>
+            <assign variable="pers4" expression="((x-x0)*(x-x1)*(x-x2))/((x3-x )*(x3-x1)*(x3-x2))"/>
+            <assign variable="cara1" expression="(y0*pers1)"/>
+            <assign variable="cara2" expression="(y1*pers2)"/>
+            <assign variable="cara3" expression="(y2*pers3)"/>
+            <assign variable="cara4" expression="(y3*pers4)"/>
+            <assign variable="hasil" expression="cara1 + cara2 + cara3 + cara4"/>
+            <output expression="hasil" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

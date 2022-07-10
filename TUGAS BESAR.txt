@@ -1,0 +1,47 @@
+Tugas Besar Metode Numerik sekaligus juga merupakan bentuk UAS dari mata kuliah Metode Numerik.
+Berikut adalah penjelasan terkait Tugas Besar Metode Numerik :
+
+
+Intstruksi :
+
+
+1. Bentuklah kelompok yang tediri dari maksimal 5 orang anggota. Nama - nama anggota kelompok harus dituliskan kedalam file excel pada link berikut : https://docs.google.com/spreadsheets/d/1sRKN6dfnzOlXAUgBmybLnUGNuA_oAsKQ23rLXuLA4fY/edit?usp=sharing
+
+
+2. Tugas Besar ini terkait denga materi Interpolasi.
+
+
+3. Masing - masing kelompok memilih minimal 2 buah metode /jenis interpolasi dibawah ini :
+    - Interpolasi Linier
+    - Interpolasi Kuadrat
+    - Interpolasi Lagrange
+    - Interpolasi Newton
+    kemudian buatlah Algoritma dari Metode Interpolasi yang dipilih. Algoritma yang dibuat adalah dalam bentuk pseudo code.
+
+
+4. Implementasikan masing - masing algoritma kedalam bahasa pemrograman (untuk bahasa pemrograman bebas bisa Pascal, Fortran, C, dll).
+
+
+5. Setelah diimplementasikan kedalam bahasa pemrograman buatlah Video Presentasi yang menjelaskan algoritma program Interpolasi yang dibuat. Pastikan     semua anggota kelompok memiliki peran berbicara dalam Video Presentasi.
+
+
+Mekanisme Pengumpulan :
+
+
+1. Video Presentasi diupload kedalam Youtube dan link / judul video dituliskan pada file notepad.
+
+
+2. File yang dkumpulkan adalah :
+    - File notepad berisi link video youtube.
+    - File Algoritma Pseudo Code.
+    - File Pogram.
+    File tersebut digabung dan dikumpulkan dalam bentuk ZIP  dengan nama : <nama_kelompok>_TB_Metnum.zip
+
+
+3. Batas waktu pengumpulan adalah tanggal 10 Juli 2021 Pukul 23.59.
+
+
+** Jika ada yang ingin dtanyakan atau kurang jelas mengenai Tugas Besar ini silahkan bertanya melalui classroom. 
+
+
+Terima kasih.
